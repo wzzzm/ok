@@ -1,65 +1,228 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>第一个程序</title>
-		<meta charset="UTF-8">
-		<meta name="author" content="王正中">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="refresh" content="50000;http://7k7k.com">
-		<style>
-		h1 {
-		text-align:center;
-		color:red
-		}
-		h2 {
-		color:red;
-		margin-left:60%
-		}
-		p {
-		color:blue;
-		text-indent:32px;
-		font-size:16px;
-		line-height:32px
-		}
-		a {
-		color:green;
-		background:yellow
-		}
-		body{
-			background-image: url("https://desk-fd.zol-img.com.cn/t_s1280x1024c5/g6/M00/00/03/ChMkKmBKxJOIJfybAAJKO-yGGQsAALS-QKGqk4AAkpT265.jpg")
 
-		}
-		img{
-		position:absolute;
-		left:50%;
-		margin-left:-181px
-		}
-		</style>
-		
-		<style media="screen and (min-width:512px) and (max-width:1024px)">
-		body{
-			background-image:url("https://desk-fd.zol-img.com.cn/t_s1280x1024c5/g6/M00/00/03/ChMkKmBKxJOIJfybAAJKO-yGGQsAALS-QKGqk4AAkpT265.jpg")
-		}
-		</style>
-		
-	</head>
-	<body>
-		<h1>Hello world5556</h1>
+<head>
+  <meta charset="utf-8">
+  <title>个人简历</title>
+  <style type="text/css"> 
+    
+    hr {
+    margin-left: 70px;
+    }
 
-		<a href="http://www.4399.com" target="blank">别学了，快来玩吧</a>
-		<p>I will try</p>
-		<h2>鲁迅的雪</h2>
-		<p>暖国的雨，向来没有变过冰冷的坚硬的灿烂的雪花。博识的人们觉得他单调，他自己也以为不幸否耶？江南的雪，可是滋润美艳之至了；那是还在隐约着的青春的消息，是极壮健的处子的皮肤。雪野中有血红的宝珠山茶，白中隐青的单瓣梅花，深黄的磬口的蜡梅花；雪下面还有冷绿的杂草。蝴蝶确乎没有；蜜蜂是否来采山茶花和梅花的蜜，我可记不真切了。但我的眼前仿佛看见冬花开在雪野中，有许多蜜蜂们忙碌地飞着，也听得他们嗡嗡地闹着。
+    body {
+    background-color: #797979;
+    min-height: 500px;
+    overflow: auto;
+    width: 60%;
+    margin: 0 auto;
+    }
 
-　　	<p>孩子们呵着冻得通红，像紫芽姜一般的小手，七八个一齐来塑雪罗汉。因为不成功，谁的父亲也来帮忙了。罗汉就塑得比孩子们高得多，虽然不过是上小下大的一堆，终于分不清是壶卢还是罗汉；然而很洁白，很明艳，以自身的滋润相粘结，整个地闪闪地生光。孩子们用龙眼核给他做眼珠，又从谁的母亲的脂粉奁中偷得胭脂来涂在嘴唇上。这回确是一个大阿罗汉了。他也就目光灼灼地嘴唇通红地坐在雪地里。
+    header {
+    background-color: #5bbdf5;
+    min-height: 200px;
+    }
 
-　　	<p>第二天还有几个孩子来访问他；对了他拍手，点头，嘻笑。但他终于独自坐着了。晴天又来消释他的皮肤，寒夜又使他结一层冰，化作不适明的水晶模样；边续的晴天又使他成为不知道算什么，而嘴上的胭脂也褪尽了。
+    main {
+    background-color: #eee;
+    min-height: 500px;
+    overflow: auto;
+    padding: 30px 20px;
+    }
 
-　　	<p>但是，朔方的雪花在纷飞之后，却永远如粉，如沙，他们决不粘连，撤在屋上，地上，枯草上，就是这样。屋上的雪是阜已就有悄化了的，因为屋里居人的火的温热。别的，在晴天之下，旋风忽来，便蓬勃地奋飞，在日光中灿灿地生光，如包藏火焰的大雾，旋转而且升腾，弥漫太空；使太空旋转而且升腾地闪烁。
+    .Separator-div {
+    height: 20px;
+    background-color: #353734;
+    }
 
-　　	<p>无边的旷野上，在凛冽的天宇下，闪闪地旋转升腾着的是雨的精魂……
+    .base-div {
+    color: #fff;
+    float: left;
+    }
 
-　　	<p>是的，那是孤独的雪，是死掉的雨，是雨的精魂。</p>
-		<img alt="ZHUMIN" src="https://desk-fd.zol-img.com.cn/t_s1280x1024c5/g6/M00/00/03/ChMkKmBKxJOIJfybAAJKO-yGGQsAALS-QKGqk4AAkpT265.jpg" width="256px" height="356px">
-	</body>
-</html>
+    .name {
+    display: block;
+    font-size: 2em;
+    padding: 20px 50px;
+    }
+
+    .direction {
+    display: block;
+    padding: 0 50px;
+    }
+
+    .detailed-div {
+    color: #fff;
+    padding: 0 300px;
+    }
+
+    .detailed-ul {
+    padding: 20px 50px;
+    }
+
+    .text-resume-div {
+    font-size: 5em;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: rgba(231, 223, 218, 1);
+    }
+    .img-education-div {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    float: left;
+    }
+    .text-education-span {
+    line-height: 70px;
+    }
+    .education-time-span {
+    margin: 20px 50px;
+    color: #5b5656;
+    }
+    .education-school-span {
+    font-size: 1.5em;
+    margin: 20px 50px;
+    }
+    .skill-div {
+    min-height: 70px;
+    overflow: auto;
+    }
+    .img_circle-skill-div {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    float: left;
+    }
+    .img_line-skil-div {
+    width: 1px;
+    margin-left: 35px;
+    background-color: #000;
+    height: 200px;
+    float: left;
+    clear: left;
+    }
+    .skill-list-div {
+    margin: 0 100px;
+    }
+    .experience-div {
+    min-height: 70px;
+    overflow: auto;
+    }
+    .img-experience-div {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    float: left;
+    }
+    .img_line-experience-div {
+    width: 1px;
+    margin-left: 35px;
+    background-color: #000;
+    height: 120px;
+    float: left;
+    clear: left;
+    }
+    .text-experience-span {
+    line-height: 70px;
+    }
+    .experience1-div {
+    margin: 0 100px;
+    }
+    .experience2-div {
+    margin: 0 100px;
+    }
+    .div-p p {
+    margin: 5px 20px;
+    }
+    </style>
+    </head>
+
+<body>
+  <header>
+    <div class="base-div">
+      <span class="name">王正中</span>
+      <span class="direction">求职意向：web前端</span>
+    </div>
+
+    <div class="detailed-div">
+      <ul class="detailed-ul">
+        <li>年龄：23岁</li>
+        <li>住址：合肥</li>
+        <li>电话：18856995399</li>
+        <li>邮箱：10645280@qq.com</li>
+      </ul>
+    </div>
+
+    <div>
+      <span class="text-resume-div">个人简历</span>
+    </div>
+  </header>
+  <div class="Separator-div"></div>
+  <main>
+    <div class="education-div">
+      <div class="img-education-div">
+        <span class="text-education-span">教育背景</span>
+      </div>
+      <span class="education-time-span">2016.09-2020.07</span>
+      <br/>
+      <br/>
+      <span class="education-school-span"> 安庆师范大学大学      计算机科学与技术专业</span>
+    </div>
+    <hr/>
+    <div class="skll-div">
+      <div class="img_circle-skill-div">
+        <span class="text-education-span">职业技能</span>
+        <div class="img_line-skil-div"></div>
+      </div>
+      <div class="skill-list-div">
+        <ol>
+            <li><p><b>熟练掌握JAVA语言,具备扎实的JAVA面向对象编程基础,有良好的编码习惯;</b></p></li>
+            <li><p><b>熟练掌握Html,了解JavaScript、CSS;</b></p></li>
+            <li><p><b>熟练掌握Oracle、了解MySQL、SQLServer等常用数据库的使用;</b></p></li>
+            <li><p><b>熟练使用Eclipse,Android Studio等开发工具;</p></li>
+            <li><p><b>熟悉Java Api、良好的文档阅读理解能力;</b></p></li>
+            <li><p><b>了解数据结构;</b></p></li>
+            <li><p><b>了解C++语言,会基本的C++编程;</b></p></li>
+            <li><p><b>了解HTML、JSON及XML及其解析。</b></p></li>
+        </ol>
+      </div>
+    </div>
+    <hr>
+    <div class="experience-div">
+      <div class="img-experience-div">
+        <span class="text-experience-span">项目经验</span>
+      </div>
+      <div class="img_line-experience-div"></div>
+      <div class="experience1-div">
+        <b>项目一：大数计算器</b>
+        <div class="div-p">
+          <p>独立设计实现;</p>
+          <p>运用Swing实现界面设计;</p>
+          <p>使用多线程、数据库实现机票管理操作。</p>
+        </div>
+      </div>
+      <br/>
+      <div class="experience2-div">
+        <b>项目二:Android平台天气预报客户端</b>
+        <div class="div-p">
+          <p>独立设计实现</p>
+          <p>运用技术:</p>
+          <p>网络通信 json数据解析 自定义视图 本地数据存储</p>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+
