@@ -61,34 +61,48 @@
     }
 
     .text-resume-div {
-    font-size: 5em;
+    font-size: 4em;
     clear: both;
     width: 100%;
     text-align: center;
     display: block;
     color: rgba(231, 223, 218, 1);
     }
+
+
     .img-education-div {
     width: 70px;
     height: 70px;
     border-radius: 35px;
-    background-color: #000;
+    background-color: rgb(75, 77, 74);
     color: #fff;
     text-align: center;
+    margin: 0 0 0 50px;
     float: left;
     }
+    .line1-1{
+    width: 1px;
+    margin-left: 85px;
+    background-color: #000;
+    height: 50px;
+    float: left;
+    clear: left;
+    }
+
     .text-education-span {
     line-height: 70px;
     }
+    
     .education-time-span {
-    margin: 20px 50px;
+    margin: 0 100px;
     color: #5b5656;
     }
 
     .education-school-span {
     font-size: 1.5em;
-    margin: 20px 50px;
+    margin: 0 100px;
     }
+
 
     .skill-div {
     min-height: 70px;
@@ -99,21 +113,43 @@
     width: 70px;
     height: 70px;
     border-radius: 35px;
-    background-color: #000;
+    background-color: rgb(75, 77, 74);
     color: #fff;
     text-align: center;
+    margin: 0 0 0 50px;
     float: left;
     }
-    .img_line-skil-div {
+    .line1-2 {
     width: 1px;
     margin-left: 35px;
     background-color: #000;
-    height: 200px;
+    height: 280px;
     float: left;
     clear: left;
     }
+
+
+    .line1{
+    height: 1px;
+    width: 100em;
+    /* margin-left: 35px; */
+    background-color: #000;
+    margin: 0 0 0 100px;
+    float: left;
+    clear: left;
+    }
+    .line2{
+    height: 1px;
+    width: 100em;
+    /* margin-left: 35px; */
+    background-color: #000;
+    margin: 0 0 0 100px;
+    float: left;
+    clear: left;
+    }
+
     .skill-list-div {
-    margin: 0 100px;
+    margin: 0 200px;
     }
 
 
@@ -126,17 +162,29 @@
     width: 70px;
     height: 70px;
     border-radius: 35px;
-    background-color: #000;
+    background-color: rgb(75, 77, 74);
     color: #fff;
     text-align: center;
+    margin: 0 0 0 50px;
     float: left;
     }
 
-    .img_line-experience-div {
+    .line1-3 {
     width: 1px;
-    margin-left: 35px;
     background-color: #000;
-    height: 600px;
+    height: 420px;
+    margin-left: 35px;
+    /* margin: 0 0 0 80px; */
+    float: left;
+    clear: left;
+    }
+
+    .line3{
+    height: 1px;
+    width: 100em;
+    /* margin-left: 35px; */
+    background-color: #000;
+    margin: 0 0 0 100px;
     float: left;
     clear: left;
     }
@@ -152,7 +200,7 @@
       width: 400px;
       height: 450px;
       float: left;
-      margin: 0 0 0 10px;
+      /* margin: 0 0 0 10px; */
       box-sizing: border-box;
     }
 
@@ -174,12 +222,13 @@
 
     .project2-name{
       font-size: 20px;
+      margin: 0;
     }
     
     </style>
     </head>
-
 <body>
+
   <header>
     <div class="base-div">
       <span class="name">王正中</span>
@@ -199,7 +248,9 @@
       <span class="text-resume-div">个人简历</span>
     </div>
   </header>
+
   <div class="Separator-div"></div>
+
   <main>
     <div class="education-div">
       <div class="img-education-div">
@@ -208,15 +259,20 @@
       <span class="education-time-span">2016.09-2020.07</span>
       <br/>
       <br/>
-      <span class="education-school-span"> 安庆师范大学大学      计算机科学与技术专业</span>
+      <span class="education-school-span"> 安庆师范大学大学 &nbsp &nbsp &nbsp &nbsp &nbsp 计算机科学与技术专业</span>
+      <div class="line1-1"></div>
     </div>
-    <hr/>
+    
+    
+    <br><div class="line1"></div><br>
+    
     <div class="skll-div">
       <div class="img_circle-skill-div">
         <span class="text-education-span">职业技能</span>
-        <div class="img_line-skil-div"></div>
+        <div class="line1-2"></div>
       </div>
       <div class="skill-list-div">
+        <br>
         <ol>
             <li><p><b>熟练掌握Html5,了解JavaScript、CSS3;</b></p></li>
             <li><p><b>了解C语言python,会基本的C和python编程;</b></p></li>
@@ -228,26 +284,30 @@
         </ol>
       </div>
     </div>
-    <hr>
+
+    <br><div class="line2"></div><br>
+    
 
     <div class="experience-div">
       <div class="img-experience-div">
         <span class="text-experience-span">项目经验</span>
+        <div class="line1-3"></div>
       </div>
-      <div class="img_line-experience-div"></div>
+      <br>
       <div class="project1">
-        <p class="project1-name">项目一：小游戏的开发</p>
-        
-            <img src="https://ftp.bmp.ovh/imgs/2021/04/6384d546f38c8a08.jpg" width="200px" height="300px">
+        <span class="project1-name">项目一：小游戏的开发</span>
+        <br><br>
+        <img src="https://ftp.bmp.ovh/imgs/2021/04/6384d546f38c8a08.jpg" width="200px" height="300px">
       </div>
       <br>
       <div class="project2">
-        <p class="project2-name">项目二:管理系统的开发</p>
+        <span class="project2-name">项目二:管理系统的开发</span>
         <br><br><br>
             <img src="https://tse4-mm.cn.bing.net/th/id/OIP.6OJZpnHBqCb83wbE8_AK7gHaE8?pid=ImgDet&rs=1" width="300px" height="200px">
         
       </div>
     </div>
+    <div class="line3"></div>
   </main>
 </body>
 
